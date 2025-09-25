@@ -1,2 +1,2 @@
 # xpirimintx
-set of xpirimintx i like to messed with when bored
+🧪 just a bunch of xpirimintx nobody asked for, an irl sgd for my cheese-head neural network.

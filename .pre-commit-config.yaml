@@ -1,0 +1,27 @@
+# Copyright 2025 Dao Le Bao Minh
+# SPDX-License-Identifier: MIT
+
+repos:
+  - repo: local
+    hooks:
+      - id: pyright
+        name: pyright type checking
+        entry: pyright
+        language: system
+        pass_filenames: false
+  - repo: https://github.com/psf/black
+    rev: 25.9.0
+    hooks:
+      - id: black
+        language_version: python3.13
+  - repo: https://github.com/PyCQA/isort
+    rev: 6.0.1
+    hooks:
+      - id: isort
+        name: isort (python)
+        args: ["--profile", "black", "--filter-files"]
+  - repo: https://github.com/google/addlicense
+    rev: v1.2.0
+    hooks:
+    - id: addlicense
+      args: [ "-c", "Dao Le Bao Minh", "-l", "mit", "-s=only" ]
