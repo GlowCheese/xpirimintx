@@ -35,4 +35,4 @@ venv = ".venv"
 
 [tool.isort]
 profile = "black"
-src_paths = ["nlp", "numpy", "sl"]
+src_paths = ["surlning"]
