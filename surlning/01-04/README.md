@@ -19,4 +19,4 @@
 ### **Lesson 4 – Deep Learning (Neural Network cơ bản)**
 
 * Giải thích neuron, layers, activation function.
-* Build mô hình NN nhỏ bằng PyTorch/TensorFlow để phân loại đơn giản (MNIST hoặc toy dataset).
+* Plot đồ thị các activation function phổ biến như Sigmoid, Tanh, ReLU.
